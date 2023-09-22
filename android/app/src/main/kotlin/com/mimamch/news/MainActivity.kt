@@ -1,4 +1,4 @@
-package com.mimamch.news
+package com.votandao.clean_architecture
 
 import io.flutter.embedding.android.FlutterActivity
 
