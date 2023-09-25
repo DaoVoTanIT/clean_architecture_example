@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:news_app_clean_architecture/features/movies/domain/entity/movies/movies_model.dart';
 import 'package:news_app_clean_architecture/features/movies/domain/entity/now_playing_movie/now_playing_movie_model.dart';
 import 'package:news_app_clean_architecture/features/movies/domain/entity/top_rated_tv/top_rated_tv_model.dart';
 

@@ -3,8 +3,8 @@ import 'package:flutter/material.dart';
 import 'package:news_app_clean_architecture/common/constant/colors.dart';
 import 'package:news_app_clean_architecture/common/constant/styles.dart';
 import 'package:news_app_clean_architecture/common/widget/app_bar.dart';
-import 'package:news_app_clean_architecture/features/movies/screen/movies.dart';
-import 'package:news_app_clean_architecture/features/new/presentation/screen/home_new/home_new.dart';
+import 'package:news_app_clean_architecture/features/movies/presentation/screen/movies.dart';
+import 'package:news_app_clean_architecture/features/new/presentation/screen/home_new.dart';
 
 class HomePage extends StatefulWidget {
   const HomePage({super.key});

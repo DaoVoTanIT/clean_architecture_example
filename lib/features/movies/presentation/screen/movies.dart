@@ -5,9 +5,9 @@ import 'package:news_app_clean_architecture/common/util/animation.dart';
 import 'package:news_app_clean_architecture/common/util/header_text.dart';
 import 'package:news_app_clean_architecture/features/movies/domain/entity/now_playing_movie/now_playing_movie_model.dart';
 import 'package:news_app_clean_architecture/features/movies/domain/entity/top_rated_tv/top_rated_tv_model.dart';
-import 'package:news_app_clean_architecture/features/movies/screen/bloc/movies/bloc/movies_bloc.dart';
-import 'package:news_app_clean_architecture/features/movies/screen/widget/horizontal_list_card.dart';
-import 'package:news_app_clean_architecture/features/movies/screen/widget/movie_widget.dart';
+import 'package:news_app_clean_architecture/features/movies/presentation/bloc/movies/bloc/movies_bloc.dart';
+import 'package:news_app_clean_architecture/features/movies/presentation/widget/horizontal_list_card.dart';
+import 'package:news_app_clean_architecture/features/movies/presentation/widget/movie_widget.dart';
 
 class MoviesHomePage extends StatefulWidget {
   const MoviesHomePage({Key? key}) : super(key: key);
@@ -45,7 +45,7 @@ class MoviesHomePageState extends State<MoviesHomePage> {
               child: CircularProgressIndicator(
                 color: Colors.grey.shade700,
                 strokeWidth: 2,
-                backgroundColor: Colors.cyanAccent,
+                // backgroundColor: Colors.cyanAccent,
               ),
             ),
           );

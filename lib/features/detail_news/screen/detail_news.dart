@@ -1,12 +1,6 @@
-import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
-import 'package:intl/intl.dart';
 import 'package:news_app_clean_architecture/features/new/domain/entity/news_model.dart';
 import 'package:webview_flutter/webview_flutter.dart';
-// Import for Android features.
-import 'package:webview_flutter_android/webview_flutter_android.dart';
-// Import for iOS features.
-import 'package:webview_flutter_wkwebview/webview_flutter_wkwebview.dart';
 
 class DetailNewsScreen extends StatelessWidget {
   const DetailNewsScreen({super.key, required this.model});
